@@ -63,10 +63,10 @@ public class MtsTest {
         onlineTopUpPage.enterPhoneNumber("297777777");
         onlineTopUpPage.enterAmount("10");
         onlineTopUpPage.clickContinue();
-        // Здесь проверьте поведение после клика (например, сообщение или переход)
+
     }
 
-    // Inner class: HomePage
+
     private static class HomePage {
         private final WebDriver driver;
 
